@@ -26,6 +26,16 @@ public class test {
 		{"KH001","Trần Thị Mỹ Duyên","0979093601","2004-02-11","true","duyen@gmail.com",null},
 		
 	};
+	String[][] khachHangSpace = new String[][] {
+		{" ","Trần Thị Mỹ Duyên","0979093601","2004-02-11","true","duyen@gmail.com","Phu Tho"},
+		{"KH001"," ","0979093601","2004-02-11","true","duyen@gmail.com","Phu Tho"},
+		{"KH001","Trần Thị Mỹ Duyên"," ","2004-02-11","true","duyen@gmail.com","Phu Tho"},
+		{"KH001","Trần Thị Mỹ Duyên","0979093601"," ","true","duyen@gmail.com","Phu Tho"},
+		{"KH001","Trần Thị Mỹ Duyên","0979093601","2004-02-11"," ","duyen@gmail.com","Phu Tho"},
+		{"KH001","Trần Thị Mỹ Duyên","0979093601","2004-02-11","true"," ","Phu Tho"},
+		{"KH001","Trần Thị Mỹ Duyên","0979093601","2004-02-11","true","duyen@gmail.com"," "},
+		
+	};
 	String[][] khachHangDaTonTai = new String[][] {
 		{"KH001","Trần Thị Mỹ Duyên","0979093601","2004-02-11","true","duyen@gmail.com","Phu Tho"},
 	};
@@ -60,6 +70,12 @@ public class test {
 		}
 	}
 	@Test(expected = IllegalArgumentException.class)
+	public void addSpace() {
+		for (int i = 0; i < khachHangSpace.length; i++) {
+			khachHangDAO.insert(khachHangDAO.getKhachHang(khachHangSpace[i][0], khachHangSpace[i][1], khachHangSpace[i][2], khachHangSpace[i][3], khachHangSpace[i][4], khachHangSpace[i][5], khachHangSpace[i][6]));
+		}
+	}
+	@Test(expected = IllegalArgumentException.class)
 	public void addKHDaTonTai() {
 		for (int i = 0; i < khachHangDaTonTai.length; i++) {
 			khachHangDAO.insert(khachHangDAO.getKhachHang(khachHangDaTonTai[i][0], khachHangDaTonTai[i][1], khachHangDaTonTai[i][2], khachHangDaTonTai[i][3], khachHangDaTonTai[i][4], khachHangDaTonTai[i][5], khachHangDaTonTai[i][6]));
@@ -88,6 +104,12 @@ public class test {
 	public void updateNull() {
 		for (int i = 0; i < khachHangNull.length; i++) {
 			khachHangDAO.update(khachHangDAO.getKhachHang(khachHangNull[i][0], khachHangNull[i][1], khachHangNull[i][2], khachHangNull[i][3], khachHangNull[i][4], khachHangNull[i][5], khachHangNull[i][6]));
+		}
+	}
+	@Test(expected = IllegalArgumentException.class)
+	public void updateSpace() {
+		for (int i = 0; i < khachHangSpace.length; i++) {
+			khachHangDAO.update(khachHangDAO.getKhachHang(khachHangSpace[i][0], khachHangSpace[i][1], khachHangSpace[i][2], khachHangSpace[i][3], khachHangSpace[i][4], khachHangSpace[i][5], khachHangSpace[i][6]));
 		}
 	}
 	@Test(expected = IllegalArgumentException.class)
