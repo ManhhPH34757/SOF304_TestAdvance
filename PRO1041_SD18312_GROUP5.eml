@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component jdk="17 (2)" jdk_type="JavaSDK">
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="poi-5.2.3.jar" scope="COMPILE">
+		<srcroot url="file://$MODULE_DIR$/../../../../Windows/Apache/poi-src-5.2.3-20220909-5.2.3"/>
+	</lib>
+	<lib name="poi-ooxml-5.2.3.jar" scope="COMPILE">
+		<srcroot url="file://$MODULE_DIR$/../../../../Windows/Apache/poi-src-5.2.3-20220909-5.2.3"/>
+	</lib>
+</component>

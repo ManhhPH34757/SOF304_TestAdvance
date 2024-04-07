@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3d83fc43-4617-4595-a501-9ce8a3b32ab8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_82.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_07.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_barcodes_7_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_font_asian_7_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_forms_7_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_hyph_7_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_io_7_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_kernel_7_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_layout_7_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_pdfa_7_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_sign_7_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_styled_xml_parser_7_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_svg_7_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_toedter_jcalendar_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_SparseBitSet_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_5_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_5_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_lite_5_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_5_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRO1041_SD18312_GROUP5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shoplaptop/ui/ShopLaptop365.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shoplaptop/ui/ShopLaptop365.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shoplaptop/utils/XImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shoplaptop/utils/XImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/Project1.ShopLaptop365/PRO1041_SD18312_GROUP5/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/Project1.ShopLaptop365/PRO1041_SD18312_GROUP5/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/BienTheDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/BienTheDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/CPUDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/CPUDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/CTHoaDonDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/CTHoaDonDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/CTHoaDonNhapDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/CTHoaDonNhapDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/CTPhieuDoiDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/CTPhieuDoiDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/DongLaptopDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/DongLaptopDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/DotGiamGiaDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/DotGiamGiaDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/GPUDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/GPUDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/HangDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/HangDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/HeDieuHanhDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/HeDieuHanhDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/HinhThucThanhToanDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/HinhThucThanhToanDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/HinhThucVanChuyenDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/HinhThucVanChuyenDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/HoaDonDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/HoaDonDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/HoaDonNhapDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/HoaDonNhapDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/KhachHangDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/KhachHangDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/LS_HoaDonDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/LS_HoaDonDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/LS_PhieuDoiDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/LS_PhieuDoiDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/LaptopDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/LaptopDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/ManHinhDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/ManHinhDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/MoTaDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/MoTaDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/NhaCungCapDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/NhaCungCapDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/NhanVienService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/NhanVienService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/OCungDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/OCungDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/PhanLoaiDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/PhanLoaiDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/PhieuDoiDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/PhieuDoiDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/PhieuGiamGiaDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/PhieuGiamGiaDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/RAMDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/RAMDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/SerialNumberDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/SerialNumberDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/ShopLaptop365DAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/ShopLaptop365DAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/ShopLaptop365Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/ShopLaptop365Manager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/TaiKhoanDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/dao/TaiKhoanDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/BaoCao_LS_HoaDon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/BaoCao_LS_HoaDon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/BaoCao_LS_PhieuDoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/BaoCao_LS_PhieuDoi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/BienThe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/BienThe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/CPU.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/CPU.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/CTHoaDon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/CTHoaDon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/CTHoaDonNhap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/CTHoaDonNhap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/CTPhieuDoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/CTPhieuDoi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/DongLaptop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/DongLaptop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/DotGiamGia.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/DotGiamGia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/GPU.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/GPU.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/Hang.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/Hang.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/HeDieuHanh.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/HeDieuHanh.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/HinhThucThanhToan.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/HinhThucThanhToan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/HinhThucVanChuyen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/HinhThucVanChuyen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/HoaDon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/HoaDon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/HoaDonNhap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/HoaDonNhap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/KhachHang.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/KhachHang.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/Laptop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/Laptop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/ManHinh.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/ManHinh.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/MoTa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/MoTa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/NhaCungCap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/NhaCungCap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/NhanVien.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/NhanVien.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/OCung.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/OCung.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/PhanLoai.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/PhanLoai.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/PhieuDoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/PhieuDoi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/PhieuGiamGia.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/PhieuGiamGia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/RAM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/RAM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/SerialNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/SerialNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/TaiKhoan.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/entity/TaiKhoan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/1024px-OOjs_UI_icon_add.svg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/2575222.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/2891491.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/320140.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/365.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/365_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/477210.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Accept.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Add to basket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Address book.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Alarm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Banner_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Banner_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Banner_PM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Bar chart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Best.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Calendar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Call.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Closed door.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Closed folder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Create.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Date.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Documents.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Edit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Favourites.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Help.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/List.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Lock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Log out.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Mail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Notes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Numbered list.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/OIG.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Open door.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Open file.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Open folder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Open letter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Open lock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/PhieuGiamGia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Price list.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Print preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Refresh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Save as.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Save.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Secure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Statistics.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Stop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Task list.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Telephone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Tick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Trash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Unknown person.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Unlock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/User.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/Users.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/add2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/anhnen1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/delete2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/exit2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/filtering.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/first.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/fpt.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/fpt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/goldenBee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/img_Login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/laptop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/last.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/login.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/login1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/login2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/nhanvien.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/phieudoi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/png-transparent-computer-icons-reset-reset-icon-desktop-wallpaper-pushbutton-reset-button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/reset.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/sale-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/sale.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/sale.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/sau.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/search2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/security.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/truoc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/update-12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/update2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/icon/voucher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/BaoCao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/BaoCao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CPUManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CPUManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CPUManager$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CPUManager$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CPUManager$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CPUManager$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CPUManager$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CPUManager$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CPUManager$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CPUManager$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CPUManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CPUManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ChiTietKhachHang$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ChiTietKhachHang$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ChiTietKhachHang$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ChiTietKhachHang$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ChiTietKhachHang.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ChiTietKhachHang.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ChiTietPhieuDoiView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ChiTietPhieuDoiView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ChiTietPhieuDoiView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ChiTietPhieuDoiView$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ChiTietPhieuDoiView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ChiTietPhieuDoiView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/CreateLaptop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/DongLaptopManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/DongLaptopManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/DongLaptopManager$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/DongLaptopManager$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/DongLaptopManager$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/DongLaptopManager$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/DongLaptopManager$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/DongLaptopManager$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/DongLaptopManager$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/DongLaptopManager$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/DongLaptopManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/DongLaptopManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/DotgiamgiaView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/DotgiamgiaView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/DotgiamgiaView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/DotgiamgiaView$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/DotgiamgiaView$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/DotgiamgiaView$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/DotgiamgiaView$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/DotgiamgiaView$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/DotgiamgiaView$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/DotgiamgiaView$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/DotgiamgiaView$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/DotgiamgiaView$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/DotgiamgiaView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/DotgiamgiaView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/FormDSHoaDon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/FormDSHoaDon$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/FormDSHoaDon$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/FormDSHoaDon$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/FormDSHoaDon$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/FormDSHoaDon$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/FormDSHoaDon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/FormDSHoaDon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/FormDanhSachPhieuDoi$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/FormDanhSachPhieuDoi$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/FormDanhSachPhieuDoi$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/FormDanhSachPhieuDoi$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/FormDanhSachPhieuDoi$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/FormDanhSachPhieuDoi$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/FormDanhSachPhieuDoi$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/FormDanhSachPhieuDoi$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/FormDanhSachPhieuDoi$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/FormDanhSachPhieuDoi$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/FormDanhSachPhieuDoi$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/FormDanhSachPhieuDoi$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/FormDanhSachPhieuDoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/FormDanhSachPhieuDoi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/GPUManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/GPUManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/GPUManager$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/GPUManager$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/GPUManager$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/GPUManager$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/GPUManager$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/GPUManager$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/GPUManager$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/GPUManager$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/GPUManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/GPUManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HangManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HangManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HangManager$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HangManager$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HangManager$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HangManager$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HangManager$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HangManager$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HangManager$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HangManager$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HangManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HangManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HeDieuHanhManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HeDieuHanhManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HeDieuHanhManager$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HeDieuHanhManager$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HeDieuHanhManager$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HeDieuHanhManager$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HeDieuHanhManager$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HeDieuHanhManager$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HeDieuHanhManager$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HeDieuHanhManager$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HeDieuHanhManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HeDieuHanhManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HelloWindows$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HelloWindows$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HelloWindows.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HelloWindows.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HoaDonManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HoaDonManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HoaDonManager$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HoaDonManager$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HoaDonManager$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HoaDonManager$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HoaDonManager$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HoaDonManager$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HoaDonManager$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HoaDonManager$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HoaDonManager$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HoaDonManager$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HoaDonManager$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HoaDonManager$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HoaDonManager$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HoaDonManager$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HoaDonManager$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HoaDonManager$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HoaDonManager$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HoaDonManager$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HoaDonManager$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HoaDonManager$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HoaDonManager$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HoaDonManager$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HoaDonManager$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HoaDonManager$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HoaDonManager$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HoaDonManager$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HoaDonManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/HoaDonManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LS_NhanVien$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LS_NhanVien$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LS_NhanVien$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LS_NhanVien$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LS_NhanVien$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LS_NhanVien$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LS_NhanVien$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LS_NhanVien$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LS_NhanVien$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LS_NhanVien$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LS_NhanVien.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LS_NhanVien.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$24.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$25.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/LaptopManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/Login$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/Login$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/Login$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/Login$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ManHinhManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ManHinhManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ManHinhManager$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ManHinhManager$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ManHinhManager$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ManHinhManager$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ManHinhManager$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ManHinhManager$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ManHinhManager$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ManHinhManager$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ManHinhManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ManHinhManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/OCungManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/OCungManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/OCungManager$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/OCungManager$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/OCungManager$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/OCungManager$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/OCungManager$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/OCungManager$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/OCungManager$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/OCungManager$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/OCungManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/OCungManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhanLoaiManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhanLoaiManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhanLoaiManager$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhanLoaiManager$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhanLoaiManager$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhanLoaiManager$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhanLoaiManager$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhanLoaiManager$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhanLoaiManager$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhanLoaiManager$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhanLoaiManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhanLoaiManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhieuGiamGiaUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhieuGiamGiaUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhieuGiamGiaUI$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhieuGiamGiaUI$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhieuGiamGiaUI$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhieuGiamGiaUI$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhieuGiamGiaUI$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhieuGiamGiaUI$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhieuGiamGiaUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhieuGiamGiaUI$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhieuGiamGiaUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhieuGiamGiaUI$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhieuGiamGiaUI$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhieuGiamGiaUI$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhieuGiamGiaUI$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhieuGiamGiaUI$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhieuGiamGiaUI$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhieuGiamGiaUI$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhieuGiamGiaUI$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhieuGiamGiaUI$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhieuGiamGiaUI$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhieuGiamGiaUI$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhieuGiamGiaUI$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhieuGiamGiaUI$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhieuGiamGiaUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/PhieuGiamGiaUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QLNhanVien$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QLNhanVien$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QLNhanVien$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QLNhanVien$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QLNhanVien$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QLNhanVien$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QLNhanVien$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QLNhanVien$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QLNhanVien$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QLNhanVien$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QLNhanVien$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QLNhanVien$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QLNhanVien$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QLNhanVien$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QLNhanVien$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QLNhanVien$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QLNhanVien$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QLNhanVien$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QLNhanVien$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QLNhanVien$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QLNhanVien$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QLNhanVien$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QLNhanVien.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QLNhanVien.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QuanLyKhachHang$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QuanLyKhachHang$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QuanLyKhachHang$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QuanLyKhachHang$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QuanLyKhachHang$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QuanLyKhachHang$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QuanLyKhachHang$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QuanLyKhachHang$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QuanLyKhachHang$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QuanLyKhachHang$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QuanLyKhachHang$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QuanLyKhachHang$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QuanLyKhachHang$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QuanLyKhachHang$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QuanLyKhachHang.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/QuanLyKhachHang.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/RAMManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/RAMManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/RAMManager$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/RAMManager$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/RAMManager$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/RAMManager$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/RAMManager$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/RAMManager$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/RAMManager$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/RAMManager$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/RAMManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/RAMManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ShopLaptop365$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ShopLaptop365$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ShopLaptop365$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ShopLaptop365$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ShopLaptop365$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ShopLaptop365$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ShopLaptop365$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ShopLaptop365$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ShopLaptop365$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ShopLaptop365$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ShopLaptop365$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ShopLaptop365$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ShopLaptop365$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ShopLaptop365$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ShopLaptop365$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ShopLaptop365$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ShopLaptop365$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ShopLaptop365$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ShopLaptop365$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ShopLaptop365$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ShopLaptop365.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ShopLaptop365.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/TaoPhieuDoi$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/TaoPhieuDoi$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/TaoPhieuDoi$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/TaoPhieuDoi$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/TaoPhieuDoi$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/TaoPhieuDoi$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/TaoPhieuDoi$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/TaoPhieuDoi$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/TaoPhieuDoi$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/TaoPhieuDoi$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/TaoPhieuDoi$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/TaoPhieuDoi$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/TaoPhieuDoi$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/TaoPhieuDoi$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/TaoPhieuDoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/TaoPhieuDoi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ThemKhachHangJDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ThemKhachHangJDialog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ThemKhachHangJDialog$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ThemKhachHangJDialog$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ThemKhachHangJDialog$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ThemKhachHangJDialog$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ThemKhachHangJDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ThemKhachHangJDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ThongKePhieuGiamUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ThongKePhieuGiamUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ThongKePhieuGiamUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ThongKePhieuGiamUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ThongTinNhanVien$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ThongTinNhanVien$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ThongTinNhanVien.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/ui/ThongTinNhanVien.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/utils/Auth.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/utils/Auth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/utils/MsgBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/utils/MsgBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/utils/XDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/utils/XDate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/utils/XImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/utils/XImage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shoplaptop/utils/XJdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shoplaptop/utils/XJdbc.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2eKBjxbuTKstUPpWVfygw8uYg2O" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "last_opened_file_path": "D:/Learn Java/JUnit/PRO1041/PRO1041_PM_Ban_Laptop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="ShopLaptop365" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17 (2)" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.shoplaptop.ui.ShopLaptop365" />
+      <module name="PRO1041_SD18312_GROUP5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shoplaptop.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ShopLaptop365" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d83fc43-4617-4595-a501-9ce8a3b32ab8" name="Changes" comment="" />
+      <created>1711643532670</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711643532670</updated>
+      <workItem from="1711643533823" duration="477000" />
+      <workItem from="1711688840585" duration="180000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
