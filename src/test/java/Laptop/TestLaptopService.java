@@ -1,11 +1,13 @@
 package Laptop;
 
 import static org.junit.Assert.assertEquals;
+import static org.testng.Assert.assertThrows;
 
 import org.junit.Test;
 
 import com.shoplaptop.dao.LaptopDAO;
 
+@org.testng.annotations.Test
 public class TestLaptopService {
 	
 	LaptopDAO laptopDAO = new LaptopDAO();
@@ -38,76 +40,140 @@ public class TestLaptopService {
 		{"LT01", "Laptop02","1","100","2020"}
 	};
 	
-	String[][] laptopsValid = new String[][] {
-		{"LT102", "Laptop Lenovo Ideapad 5","1","1","2020"}
-	};
-	
 	String[] maLaptopNull = new String[] {
 			null, "", " "
 	};
 	
 	/* -------------- Add LapTop ---------------- */
 	
-	@Test(expected = NullPointerException.class)
+	@Test
 	public void testAddNull() {
-		for (int i = 0; i < laptopsNull.length; i++) {
-			laptopDAO.insert(laptopDAO.getLaptop(laptopsNull[i][0], laptopsNull[i][1], laptopsNull[i][2], laptopsNull[i][3], laptopsNull[i][4]));
-		}
+	    for (int i = 0; i < laptopsNull.length; i++) {
+	        final int currentIndex = i; // Declare a final variable to capture the current index
+	        assertThrows(NullPointerException.class, () -> {
+	            laptopDAO.insert(laptopDAO.getLaptop(
+	                laptopsNull[currentIndex][0],
+	                laptopsNull[currentIndex][1],
+	                laptopsNull[currentIndex][2],
+	                laptopsNull[currentIndex][3],
+	                laptopsNull[currentIndex][4]
+	            ));
+	        });
+	    }
 	}
 	
-	@Test(expected = NumberFormatException.class)
+	@Test
 	public void testAddNumberFormat() {
 		for (int i = 0; i < laptopsNumberFormat.length; i++) {
-			laptopDAO.insert(laptopDAO.getLaptop(laptopsNumberFormat[i][0], laptopsNumberFormat[i][1], laptopsNumberFormat[i][2], laptopsNumberFormat[i][3], laptopsNumberFormat[i][4]));
-		}
-	}
-	
-	@Test(expected = IllegalArgumentException.class)
-	public void testAddInValid() {
-		for (int i = 0; i < laptopsInValid.length; i++) {
-			laptopDAO.insert(laptopDAO.getLaptop(laptopsInValid[i][0], laptopsInValid[i][1], laptopsInValid[i][2], laptopsInValid[i][3], laptopsInValid[i][4]));
+			final int currentIndex = i; // Declare a final variable to capture the current index
+	        assertThrows(NumberFormatException.class, () -> {
+	            laptopDAO.insert(laptopDAO.getLaptop(
+            		laptopsNumberFormat[currentIndex][0],
+            		laptopsNumberFormat[currentIndex][1],
+            		laptopsNumberFormat[currentIndex][2],
+            		laptopsNumberFormat[currentIndex][3],
+            		laptopsNumberFormat[currentIndex][4]
+	            ));
+	        });
 		}
 	}
 	
 	@Test
+	public void testAddInValid() {
+		for (int i = 0; i < laptopsInValid.length; i++) {
+			final int currentIndex = i; // Declare a final variable to capture the current index
+	        assertThrows(IllegalArgumentException.class, () -> {
+	            laptopDAO.insert(laptopDAO.getLaptop(
+            		laptopsInValid[currentIndex][0],
+            		laptopsInValid[currentIndex][1],
+            		laptopsInValid[currentIndex][2],
+            		laptopsInValid[currentIndex][3],
+            		laptopsInValid[currentIndex][4]
+	            ));
+	        });
+		}
+		
+	}
+	
+	String[][] laptopsValid = new String[][] {
+		{"LT105", "Laptop Lenovo Ideapad 5","1","1","2020"}
+	};
+	@Test
 	public void testAddSuccess() {
-		assertEquals("Add thành công", laptopDAO.insert(laptopDAO.getLaptop(laptopsValid[0][0], laptopsValid[0][1], laptopsValid[0][2], laptopsValid[0][3], laptopsValid[0][4])));
+		assertEquals("Add thành công", laptopDAO.insert(laptopDAO.getLaptop(
+				laptopsValid[0][0], 
+				laptopsValid[0][1], 
+				laptopsValid[0][2], 
+				laptopsValid[0][3], 
+				laptopsValid[0][4]
+		)));
 	}
 	
 	/* -------------- Update LapTop ---------------- */
 	
-	@Test(expected = NullPointerException.class)
+	@Test
 	public void testUpdateNull() {
 		for (int i = 0; i < laptopsNull.length; i++) {
-			laptopDAO.update(laptopDAO.getLaptop(laptopsNull[i][0], laptopsNull[i][1], laptopsNull[i][2], laptopsNull[i][3], laptopsNull[i][4]));
-		}
-	}
-	
-	@Test(expected = NumberFormatException.class)
-	public void testUpdateNumberFormat() {
-		for (int i = 0; i < laptopsNumberFormat.length; i++) {
-			laptopDAO.update(laptopDAO.getLaptop(laptopsNumberFormat[i][0], laptopsNumberFormat[i][1], laptopsNumberFormat[i][2], laptopsNumberFormat[i][3], laptopsNumberFormat[i][4]));
-		}
-	}
-	
-	@Test(expected = IllegalArgumentException.class)
-	public void testUpdateInValid() {
-		for (int i = 0; i < laptopsInValid.length; i++) {
-			laptopDAO.update(laptopDAO.getLaptop(laptopsInValid[i][0], laptopsInValid[i][1], laptopsInValid[i][2], laptopsInValid[i][3], laptopsInValid[i][4]));
+			final int currentIndex = i; // Declare a final variable to capture the current index
+	        assertThrows(NullPointerException.class, () -> {
+	            laptopDAO.update(laptopDAO.getLaptop(
+            		laptopsNull[currentIndex][0],
+            		laptopsNull[currentIndex][1],
+            		laptopsNull[currentIndex][2],
+            		laptopsNull[currentIndex][3],
+            		laptopsNull[currentIndex][4]
+	            ));
+	        });
 		}
 	}
 	
 	@Test
+	public void testUpdateNumberFormat() {
+		for (int i = 0; i < laptopsNumberFormat.length; i++) {
+			final int currentIndex = i; // Declare a final variable to capture the current index
+	        assertThrows(NumberFormatException.class, () -> {
+	            laptopDAO.update(laptopDAO.getLaptop(
+            		laptopsNumberFormat[currentIndex][0],
+            		laptopsNumberFormat[currentIndex][1],
+            		laptopsNumberFormat[currentIndex][2],
+            		laptopsNumberFormat[currentIndex][3],
+            		laptopsNumberFormat[currentIndex][4]
+	            ));
+	        });
+		}
+	}
+	
+	@Test
+	public void testUpdateInValid() {
+		for (int i = 0; i < laptopsInValid.length; i++) {
+			final int currentIndex = i; // Declare a final variable to capture the current index
+	        assertThrows(IllegalArgumentException.class, () -> {
+	            laptopDAO.update(laptopDAO.getLaptop(
+            		laptopsInValid[currentIndex][0],
+            		laptopsInValid[currentIndex][1],
+            		laptopsInValid[currentIndex][2],
+            		laptopsInValid[currentIndex][3],
+            		laptopsInValid[currentIndex][4]
+	            ));
+	        });		
+	    }
+	}
+	
+	@Test
 	public void testUpdateSuccess() {
-		assertEquals("Update thành công", laptopDAO.update(laptopDAO.getLaptop(laptopsValid[0][0], laptopsValid[0][1], laptopsValid[0][2], laptopsValid[0][3], laptopsValid[0][4])));
+		assertEquals("Update thành công", laptopDAO.update(laptopDAO.getLaptopUpdate(laptopsValid[0][0], laptopsValid[0][1], laptopsValid[0][2], laptopsValid[0][3], laptopsValid[0][4])));
 	}
 	
 	/* -------------- Delete LapTop ---------------- */
 	
-	@Test(expected = NullPointerException.class)
+	@Test
 	public void testDeleteNull() {
 		for (int i = 0; i < maLaptopNull.length; i++) {
-			laptopDAO.delete(laptopDAO.maLaptop(maLaptopNull[i]));
+			final int currentIndex = i; // Declare a final variable to capture the current index
+	        assertThrows(NullPointerException.class, () -> {
+	        	laptopDAO.delete(laptopDAO.maLaptop(maLaptopNull[currentIndex]));
+	        });		
+			
 		}
 	}
 	
