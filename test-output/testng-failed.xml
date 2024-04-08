@@ -5,7 +5,7 @@
     <classes>
       <class name="TestKhachHang.test">
         <methods>
-          <include name="updateValid"/>
+          <include name="addValid"/>
         </methods>
       </class> <!-- TestKhachHang.test -->
     </classes>

@@ -2,60 +2,60 @@
 <testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-08T14:04:32 ICT" name="Default suite" finished-at="2024-04-08T14:04:33 ICT" duration-ms="810">
+  <suite started-at="2024-04-08T15:43:16 ICT" name="Default suite" finished-at="2024-04-08T15:43:16 ICT" duration-ms="486">
     <groups>
     </groups>
-    <test started-at="2024-04-08T14:04:32 ICT" name="Default test" finished-at="2024-04-08T14:04:33 ICT" duration-ms="810">
+    <test started-at="2024-04-08T15:43:16 ICT" name="Default test" finished-at="2024-04-08T15:43:16 ICT" duration-ms="486">
       <class name="TestKhachHang.test">
-        <test-method signature="addGioiTinh()[pri:0, instance:TestKhachHang.test@2f666ebb]" started-at="2024-04-08T14:04:32 ICT" name="addGioiTinh" finished-at="2024-04-08T14:04:33 ICT" duration-ms="95" status="PASS">
+        <test-method signature="addGioiTinh()[pri:0, instance:TestKhachHang.test@2f666ebb]" started-at="2024-04-08T15:43:16 ICT" name="addGioiTinh" finished-at="2024-04-08T15:43:16 ICT" duration-ms="85" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addGioiTinh -->
-        <test-method signature="addKHDaTonTai()[pri:0, instance:TestKhachHang.test@2f666ebb]" started-at="2024-04-08T14:04:33 ICT" name="addKHDaTonTai" finished-at="2024-04-08T14:04:33 ICT" duration-ms="20" status="PASS">
+        <test-method signature="addKHDaTonTai()[pri:0, instance:TestKhachHang.test@2f666ebb]" started-at="2024-04-08T15:43:16 ICT" name="addKHDaTonTai" finished-at="2024-04-08T15:43:16 ICT" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addKHDaTonTai -->
-        <test-method signature="addNull()[pri:0, instance:TestKhachHang.test@2f666ebb]" started-at="2024-04-08T14:04:33 ICT" name="addNull" finished-at="2024-04-08T14:04:33 ICT" duration-ms="144" status="PASS">
+        <test-method signature="addNull()[pri:0, instance:TestKhachHang.test@2f666ebb]" started-at="2024-04-08T15:43:16 ICT" name="addNull" finished-at="2024-04-08T15:43:16 ICT" duration-ms="120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNull -->
-        <test-method signature="addSoDienThoai()[pri:0, instance:TestKhachHang.test@2f666ebb]" started-at="2024-04-08T14:04:33 ICT" name="addSoDienThoai" finished-at="2024-04-08T14:04:33 ICT" duration-ms="21" status="PASS">
+        <test-method signature="addSoDienThoai()[pri:0, instance:TestKhachHang.test@2f666ebb]" started-at="2024-04-08T15:43:16 ICT" name="addSoDienThoai" finished-at="2024-04-08T15:43:16 ICT" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addSoDienThoai -->
-        <test-method signature="addSpace()[pri:0, instance:TestKhachHang.test@2f666ebb]" started-at="2024-04-08T14:04:33 ICT" name="addSpace" finished-at="2024-04-08T14:04:33 ICT" duration-ms="126" status="PASS">
+        <test-method signature="addSpace()[pri:0, instance:TestKhachHang.test@2f666ebb]" started-at="2024-04-08T15:43:16 ICT" name="addSpace" finished-at="2024-04-08T15:43:16 ICT" duration-ms="111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addSpace -->
-        <test-method signature="addValid()[pri:0, instance:TestKhachHang.test@2f666ebb]" started-at="2024-04-08T14:04:33 ICT" name="addValid" finished-at="2024-04-08T14:04:33 ICT" duration-ms="61" status="PASS">
+        <test-method signature="addValid()[pri:0, instance:TestKhachHang.test@2f666ebb]" started-at="2024-04-08T15:43:16 ICT" name="addValid" finished-at="2024-04-08T15:43:16 ICT" duration-ms="49" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addValid -->
-        <test-method signature="deleteNull()[pri:0, instance:TestKhachHang.test@2f666ebb]" started-at="2024-04-08T14:04:33 ICT" name="deleteNull" finished-at="2024-04-08T14:04:33 ICT" duration-ms="1" status="PASS">
+        <test-method signature="deleteNull()[pri:0, instance:TestKhachHang.test@2f666ebb]" started-at="2024-04-08T15:43:16 ICT" name="deleteNull" finished-at="2024-04-08T15:43:16 ICT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteNull -->
-        <test-method signature="deleteValid()[pri:0, instance:TestKhachHang.test@2f666ebb]" started-at="2024-04-08T14:04:33 ICT" name="deleteValid" finished-at="2024-04-08T14:04:33 ICT" duration-ms="12" status="PASS">
+        <test-method signature="deleteValid()[pri:0, instance:TestKhachHang.test@2f666ebb]" started-at="2024-04-08T15:43:16 ICT" name="deleteValid" finished-at="2024-04-08T15:43:16 ICT" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteValid -->
-        <test-method signature="updateInValidGioiTinh()[pri:0, instance:TestKhachHang.test@2f666ebb]" started-at="2024-04-08T14:04:33 ICT" name="updateInValidGioiTinh" finished-at="2024-04-08T14:04:33 ICT" duration-ms="19" status="PASS">
+        <test-method signature="updateInValidGioiTinh()[pri:0, instance:TestKhachHang.test@2f666ebb]" started-at="2024-04-08T15:43:16 ICT" name="updateInValidGioiTinh" finished-at="2024-04-08T15:43:16 ICT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateInValidGioiTinh -->
-        <test-method signature="updateInValidSDT()[pri:0, instance:TestKhachHang.test@2f666ebb]" started-at="2024-04-08T14:04:33 ICT" name="updateInValidSDT" finished-at="2024-04-08T14:04:33 ICT" duration-ms="16" status="PASS">
+        <test-method signature="updateInValidSDT()[pri:0, instance:TestKhachHang.test@2f666ebb]" started-at="2024-04-08T15:43:16 ICT" name="updateInValidSDT" finished-at="2024-04-08T15:43:16 ICT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateInValidSDT -->
-        <test-method signature="updateNull()[pri:0, instance:TestKhachHang.test@2f666ebb]" started-at="2024-04-08T14:04:33 ICT" name="updateNull" finished-at="2024-04-08T14:04:33 ICT" duration-ms="119" status="PASS">
+        <test-method signature="updateNull()[pri:0, instance:TestKhachHang.test@2f666ebb]" started-at="2024-04-08T15:43:16 ICT" name="updateNull" finished-at="2024-04-08T15:43:16 ICT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateNull -->
-        <test-method signature="updateSpace()[pri:0, instance:TestKhachHang.test@2f666ebb]" started-at="2024-04-08T14:04:33 ICT" name="updateSpace" finished-at="2024-04-08T14:04:33 ICT" duration-ms="107" status="PASS">
+        <test-method signature="updateSpace()[pri:0, instance:TestKhachHang.test@2f666ebb]" started-at="2024-04-08T15:43:16 ICT" name="updateSpace" finished-at="2024-04-08T15:43:16 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateSpace -->
-        <test-method signature="updateValid()[pri:0, instance:TestKhachHang.test@2f666ebb]" started-at="2024-04-08T14:04:33 ICT" name="updateValid" finished-at="2024-04-08T14:04:33 ICT" duration-ms="22" status="PASS">
+        <test-method signature="updateValid()[pri:0, instance:TestKhachHang.test@2f666ebb]" started-at="2024-04-08T15:43:16 ICT" name="updateValid" finished-at="2024-04-08T15:43:16 ICT" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateValid -->

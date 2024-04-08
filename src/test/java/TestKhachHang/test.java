@@ -47,7 +47,10 @@ public class test {
 		{"KH001","Trần Thị Mỹ Duyên","09790936011","2004-02-11","true","duyen@gmail.com","Phu Tho"},
 	};
 	String[][] khachHangValid = new String[][] {
-		{"KH104","Trần Thị Mỹ Duyên","0979093601","2004-02-11","true","duyen@gmail.com","Phu Tho"},
+		{"KH105","Trần Thị Mỹ Duyên","0979093601","2004-02-11","true","duyen@gmail.com","Phu Tho"},
+	};
+	String[][] khachHangValidUpdate = new String[][] {
+		{"KH104","Trần Thị Mỹ Duyên","0979093602","2004-02-11","true","duyen@gmail.com","Phu Tho"},
 	};
 	String[][] khachHangUpdateValid = new String[][] {
 		{"KH002","Trần Thị Mỹ Duyênnnnn","0979093601","2004-02-11","true","duyen@gmail.com","Phu Tho"},
@@ -164,7 +167,7 @@ public class test {
 		for (int i = 0; i < khachHangNull.length; i++) {
 			final int currentIndex = i;
 			assertThrows(NullPointerException.class, () ->{
-				khachHangDAO.update(khachHangDAO.getKhachHang(khachHangSpace[currentIndex][0],
+				khachHangDAO.update(khachHangDAO.getKhachHangUpdate(khachHangSpace[currentIndex][0],
 						khachHangSpace[currentIndex][1],
 						khachHangSpace[currentIndex][2],
 						khachHangSpace[currentIndex][3],
@@ -179,7 +182,7 @@ public class test {
 		for (int i = 0; i < khachHangSpace.length; i++) {
 			final int currentIndex = i;
 			assertThrows(NullPointerException.class, () ->{
-				khachHangDAO.update(khachHangDAO.getKhachHang(khachHangSpace[currentIndex][0],
+				khachHangDAO.update(khachHangDAO.getKhachHangUpdate(khachHangSpace[currentIndex][0],
 						khachHangSpace[currentIndex][1],
 						khachHangSpace[currentIndex][2],
 						khachHangSpace[currentIndex][3],
@@ -206,7 +209,7 @@ public class test {
 		for (int i = 0; i < khachHangUpdateGioiTinh.length; i++) {
 			final int currentIndex = i;
 			assertThrows(IllegalArgumentException.class, () -> {
-				khachHangDAO.insert(khachHangDAO.getKhachHang(khachHangUpdateGioiTinh[currentIndex][0],
+				khachHangDAO.insert(khachHangDAO.getKhachHangUpdate(khachHangUpdateGioiTinh[currentIndex][0],
 						khachHangUpdateGioiTinh[currentIndex][1],
 						khachHangUpdateGioiTinh[currentIndex][2],
 						khachHangUpdateGioiTinh[currentIndex][3],
@@ -222,7 +225,7 @@ public class test {
 		for (int i = 0; i < khachHangUpdateSDT.length; i++) {
 			final int currentIndex = i;
 			assertThrows(IllegalArgumentException.class, () -> {
-				khachHangDAO.insert(khachHangDAO.getKhachHang(khachHangUpdateSDT[currentIndex][0],
+				khachHangDAO.insert(khachHangDAO.getKhachHangUpdate(khachHangUpdateSDT[currentIndex][0],
 						khachHangUpdateSDT[currentIndex][1],
 						khachHangUpdateSDT[currentIndex][2],
 						khachHangUpdateSDT[currentIndex][3],
