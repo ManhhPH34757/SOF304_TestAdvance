@@ -33,10 +33,10 @@ public class KhachHangDAO implements ShopLaptop365DAO<KhachHang, String> {
 		String selectHoaDonBySoDienThoai = "SELECT * FROM KhachHang WHERE SoDienThoai = ? ";
 
 		public KhachHang getKhachHang(String maKH, String hoTen, String soDienThoai, String ngaySinh, String gioiTinh, String email, String  diaChi) {
-			List<KhachHang> list = new ArrayList<KhachHang>();
+			List<KhachHang> list = selectAll();
 			
 			try {
-				boolean gTinh = Boolean.parseBoolean(gioiTinh);
+				
 				String regex ="\\d{10}";
 				if( maKH == null || maKH.trim().isEmpty()|| hoTen == null || hoTen.trim().isEmpty() || 
 						soDienThoai == null || soDienThoai.trim().isEmpty() || ngaySinh == null || 
@@ -44,12 +44,13 @@ public class KhachHangDAO implements ShopLaptop365DAO<KhachHang, String> {
 						email == null || email.trim().isEmpty() || diaChi == null || diaChi.trim().isEmpty()) {
 					throw new NullPointerException();
 				}
+				boolean gTinh = Boolean.parseBoolean(gioiTinh);
 				for (KhachHang khachHang : list) {
-					if(khachHang.getMaKH()== maKH) {
+					if(khachHang.getMaKH().equals(maKH)) {
 						throw new IllegalArgumentException("Mã khách hàng đã tồn tại");
 					}
 				}
-				if(gTinh != true || gTinh!= false) {
+				if(!gioiTinh.equals("true") && !gioiTinh.equals("false")) {
 					throw new IllegalArgumentException("Giới tính không hợp lệ");
 				}
 				if(!soDienThoai.matches(regex)) {
@@ -57,7 +58,33 @@ public class KhachHangDAO implements ShopLaptop365DAO<KhachHang, String> {
 					
 				}
 				return new KhachHang(maKH, hoTen, soDienThoai, null, gTinh, email, diaChi);
-			} catch (Exception e) {
+			} catch (NumberFormatException e) {
+				throw new NumberFormatException();
+			}
+		}
+		
+		public KhachHang getKhachHangUpdate(String maKH, String hoTen, String soDienThoai, String ngaySinh, String gioiTinh, String email, String  diaChi) {
+			
+			try {
+				
+				String regex ="\\d{10}";
+				if( maKH == null || maKH.trim().isEmpty()|| hoTen == null || hoTen.trim().isEmpty() || 
+						soDienThoai == null || soDienThoai.trim().isEmpty() || ngaySinh == null || 
+						ngaySinh.trim().isEmpty() || gioiTinh == null || gioiTinh.trim().isEmpty() || 
+						email == null || email.trim().isEmpty() || diaChi == null || diaChi.trim().isEmpty()) {
+					throw new NullPointerException();
+				}
+				boolean gTinh = Boolean.parseBoolean(gioiTinh);
+				
+				if(!gioiTinh.equals("true") && !gioiTinh.equals("false")) {
+					throw new IllegalArgumentException("Giới tính không hợp lệ");
+				}
+				if(!soDienThoai.matches(regex)) {
+					throw new IllegalArgumentException("Số điện thoại không hợp lệ");
+					
+				}
+				return new KhachHang(maKH, hoTen, soDienThoai, null, gTinh, email, diaChi);
+			} catch (NumberFormatException e) {
 				throw new NumberFormatException();
 			}
 		}
@@ -80,8 +107,7 @@ public class KhachHangDAO implements ShopLaptop365DAO<KhachHang, String> {
 			return "Thêm khách hàng thành công";
 			
 		} catch (Exception e) {
-			
-			throw new RuntimeException();
+			return "Thêm khách hàng không thành công";
 		}
 	}
 	

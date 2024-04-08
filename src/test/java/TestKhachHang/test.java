@@ -1,6 +1,7 @@
 package TestKhachHang;
 
 import static org.junit.Assert.assertEquals;
+import static org.testng.Assert.assertThrows;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -10,7 +11,7 @@ import org.junit.Test;
 
 import com.shoplaptop.dao.KhachHangDAO;
 import com.shoplaptop.entity.KhachHang;
-
+@org.testng.annotations.Test
 public class test {
 	KhachHangDAO khachHangDAO = new KhachHangDAO();
 	public List<KhachHang> list = new ArrayList<>();
@@ -37,7 +38,7 @@ public class test {
 		
 	};
 	String[][] khachHangDaTonTai = new String[][] {
-		{"KH001","Trần Thị Mỹ Duyên","0979093601","2004-02-11","true","duyen@gmail.com","Phu Tho"},
+		{"KH102","Trần Thị Mỹ Duyên","0979093601","2004-02-11","true","duyen@gmail.com","Phu Tho"},
 	};
 	String[][] khachHangGioiTinh = new String[][] {
 		{"KH001","Trần Thị Mỹ Duyên","0979093601","2004-02-11","truee","duyen@gmail.com","Phu Tho"},
@@ -46,7 +47,7 @@ public class test {
 		{"KH001","Trần Thị Mỹ Duyên","09790936011","2004-02-11","true","duyen@gmail.com","Phu Tho"},
 	};
 	String[][] khachHangValid = new String[][] {
-		{"KH002","Trần Thị Mỹ Duyên","0979093601","2004-02-11","true","duyen@gmail.com","Phu Tho"},
+		{"KH104","Trần Thị Mỹ Duyên","0979093601","2004-02-11","true","duyen@gmail.com","Phu Tho"},
 	};
 	String[][] khachHangUpdateValid = new String[][] {
 		{"KH002","Trần Thị Mỹ Duyênnnnn","0979093601","2004-02-11","true","duyen@gmail.com","Phu Tho"},
@@ -63,83 +64,188 @@ public class test {
 			{"KH003"};
 
 	//addddddddddddd
-	@Test(expected = IllegalArgumentException.class)
+	@Test
 	public void addNull() {
 		for (int i = 0; i < khachHangNull.length; i++) {
-			khachHangDAO.insert(khachHangDAO.getKhachHang(khachHangNull[i][0], khachHangNull[i][1], khachHangNull[i][2], khachHangNull[i][3], khachHangNull[i][4], khachHangNull[i][5], khachHangNull[i][6]));
+			final int currentIndex = i;
+			assertThrows(NullPointerException.class, () ->{
+				khachHangDAO.insert(khachHangDAO.getKhachHang(
+						khachHangNull[currentIndex][0],
+						khachHangNull[currentIndex][1],
+						khachHangNull[currentIndex][2],
+						khachHangNull[currentIndex][3],
+						khachHangNull[currentIndex][4],
+						khachHangNull[currentIndex][5],
+						khachHangNull[currentIndex][6]));
+			});
 		}
 	}
-	@Test(expected = IllegalArgumentException.class)
+	@Test
 	public void addSpace() {
 		for (int i = 0; i < khachHangSpace.length; i++) {
-			khachHangDAO.insert(khachHangDAO.getKhachHang(khachHangSpace[i][0], khachHangSpace[i][1], khachHangSpace[i][2], khachHangSpace[i][3], khachHangSpace[i][4], khachHangSpace[i][5], khachHangSpace[i][6]));
+			final int currentIndex = i;
+			assertThrows(NullPointerException.class, () -> {
+				khachHangDAO.insert(khachHangDAO.getKhachHang(
+						khachHangSpace[currentIndex][0],
+						khachHangSpace[currentIndex][1],
+						khachHangSpace[currentIndex][2],
+						khachHangSpace[currentIndex][3],
+						khachHangSpace[currentIndex][4],
+						khachHangSpace[currentIndex][5],
+						khachHangSpace[currentIndex][6]));
+			});
 		}
 	}
-	@Test(expected = IllegalArgumentException.class)
+	@Test
 	public void addKHDaTonTai() {
 		for (int i = 0; i < khachHangDaTonTai.length; i++) {
-			khachHangDAO.insert(khachHangDAO.getKhachHang(khachHangDaTonTai[i][0], khachHangDaTonTai[i][1], khachHangDaTonTai[i][2], khachHangDaTonTai[i][3], khachHangDaTonTai[i][4], khachHangDaTonTai[i][5], khachHangDaTonTai[i][6]));
+			final int currentIndex = i;
+			assertThrows(IllegalArgumentException.class, () -> {
+				khachHangDAO.insert(khachHangDAO.getKhachHang(khachHangDaTonTai[currentIndex][0],
+						khachHangDaTonTai[currentIndex][1],
+						khachHangDaTonTai[currentIndex][2],
+						khachHangDaTonTai[currentIndex][3],
+						khachHangDaTonTai[currentIndex][4],
+						khachHangDaTonTai[currentIndex][5],
+						khachHangDaTonTai[currentIndex][6]));
+				
+			});
 		}
 	}
-	@Test(expected = IllegalArgumentException.class)
+	@Test
 	public void addGioiTinh() {
 		for (int i = 0; i < khachHangGioiTinh.length; i++) {
-			khachHangDAO.insert(khachHangDAO.getKhachHang(khachHangGioiTinh[i][0], khachHangGioiTinh[i][1], khachHangGioiTinh[i][2], khachHangGioiTinh[i][3], khachHangGioiTinh[i][4], khachHangGioiTinh[i][5], khachHangGioiTinh[i][6]));
+			final int currentIndex = i;
+			assertThrows(IllegalArgumentException.class, () -> {
+				khachHangDAO.insert(khachHangDAO.getKhachHang(khachHangGioiTinh[currentIndex][0],
+						khachHangGioiTinh[currentIndex][1],
+						khachHangGioiTinh[currentIndex][2],
+						khachHangGioiTinh[currentIndex][3],
+						khachHangGioiTinh[currentIndex][4],
+						khachHangGioiTinh[currentIndex][5],
+						khachHangGioiTinh[currentIndex][6]));
+				
+			});
 		}
 	}
-	@Test(expected = IllegalArgumentException.class)
+	@Test
 	public void addSoDienThoai() {
 		for (int i = 0; i < khachHangSDTKHL.length; i++) {
-			khachHangDAO.insert(khachHangDAO.getKhachHang(khachHangSDTKHL[i][0], khachHangSDTKHL[i][1], khachHangSDTKHL[i][2], khachHangSDTKHL[i][3], khachHangSDTKHL[i][4], khachHangSDTKHL[i][5], khachHangSDTKHL[i][6]));
+			final int currentIndex = i;
+			assertThrows(IllegalArgumentException.class, () -> {
+				khachHangDAO.insert(khachHangDAO.getKhachHang(khachHangSDTKHL[currentIndex][0],
+						khachHangSDTKHL[currentIndex][1],
+						khachHangSDTKHL[currentIndex][2],
+						khachHangSDTKHL[currentIndex][3],
+						khachHangSDTKHL[currentIndex][4],
+						khachHangSDTKHL[currentIndex][5],
+						khachHangSDTKHL[currentIndex][6]));
+				
+			});
 		}
 	}
-	@Test(expected = IllegalArgumentException.class)
+	@Test
 	public void addValid() {
-		for (int i = 0; i < khachHangValid.length; i++) {
-			khachHangDAO.insert(khachHangDAO.getKhachHang(khachHangValid[i][0], khachHangValid[i][1], khachHangValid[i][2], khachHangValid[i][3], khachHangValid[i][4], khachHangValid[i][5], khachHangValid[i][6]));
+			assertEquals("Thêm khách hàng thành công", khachHangDAO.insert(khachHangDAO.getKhachHang(
+					khachHangValid[0][0],
+					khachHangValid[0][1],
+					khachHangValid[0][2],
+					khachHangValid[0][3],
+					khachHangValid[0][4],
+					khachHangValid[0][5],
+					khachHangValid[0][6]
+					)));
+
 		}
-	}
+	
 	//updateeeeeeeeee
-	@Test(expected = IllegalArgumentException.class)
+	@Test
 	public void updateNull() {
 		for (int i = 0; i < khachHangNull.length; i++) {
-			khachHangDAO.update(khachHangDAO.getKhachHang(khachHangNull[i][0], khachHangNull[i][1], khachHangNull[i][2], khachHangNull[i][3], khachHangNull[i][4], khachHangNull[i][5], khachHangNull[i][6]));
+			final int currentIndex = i;
+			assertThrows(NullPointerException.class, () ->{
+				khachHangDAO.update(khachHangDAO.getKhachHang(khachHangSpace[currentIndex][0],
+						khachHangSpace[currentIndex][1],
+						khachHangSpace[currentIndex][2],
+						khachHangSpace[currentIndex][3],
+						khachHangSpace[currentIndex][4],
+						khachHangSpace[currentIndex][5],
+						khachHangSpace[currentIndex][6]));
+			});
 		}
 	}
-	@Test(expected = IllegalArgumentException.class)
+	@Test
 	public void updateSpace() {
 		for (int i = 0; i < khachHangSpace.length; i++) {
-			khachHangDAO.update(khachHangDAO.getKhachHang(khachHangSpace[i][0], khachHangSpace[i][1], khachHangSpace[i][2], khachHangSpace[i][3], khachHangSpace[i][4], khachHangSpace[i][5], khachHangSpace[i][6]));
+			final int currentIndex = i;
+			assertThrows(NullPointerException.class, () ->{
+				khachHangDAO.update(khachHangDAO.getKhachHang(khachHangSpace[currentIndex][0],
+						khachHangSpace[currentIndex][1],
+						khachHangSpace[currentIndex][2],
+						khachHangSpace[currentIndex][3],
+						khachHangSpace[currentIndex][4],
+						khachHangSpace[currentIndex][5],
+						khachHangSpace[currentIndex][6]));
+			});
 		}
 	}
-	@Test(expected = IllegalArgumentException.class)
+	@Test
 	public void updateValid() {
-		for (int i = 0; i < khachHangValid.length; i++) {
-			khachHangDAO.update(khachHangDAO.getKhachHang(khachHangUpdateValid[i][0], khachHangUpdateValid[i][1], khachHangUpdateValid[i][2], khachHangUpdateValid[i][3], khachHangUpdateValid[i][4], khachHangUpdateValid[i][5], khachHangUpdateValid[i][6]));
-		}
+		assertEquals("Sửa khách hàng thành công", khachHangDAO.update(khachHangDAO.getKhachHangUpdate(
+				khachHangValid[0][0],
+				khachHangValid[0][1],
+				khachHangValid[0][2],
+				khachHangValid[0][3],
+				khachHangValid[0][4],
+				khachHangValid[0][5],
+				khachHangValid[0][6]
+				)));
 	}
-	@Test(expected = IllegalArgumentException.class)
+	@Test
 	public void updateInValidGioiTinh() {
 		for (int i = 0; i < khachHangUpdateGioiTinh.length; i++) {
-			khachHangDAO.update(khachHangDAO.getKhachHang(khachHangUpdateGioiTinh[i][0], khachHangUpdateGioiTinh[i][1], khachHangUpdateGioiTinh[i][2], khachHangUpdateGioiTinh[i][3], khachHangUpdateGioiTinh[i][4], khachHangUpdateGioiTinh[i][5], khachHangUpdateGioiTinh[i][6]));
+			final int currentIndex = i;
+			assertThrows(IllegalArgumentException.class, () -> {
+				khachHangDAO.insert(khachHangDAO.getKhachHang(khachHangUpdateGioiTinh[currentIndex][0],
+						khachHangUpdateGioiTinh[currentIndex][1],
+						khachHangUpdateGioiTinh[currentIndex][2],
+						khachHangUpdateGioiTinh[currentIndex][3],
+						khachHangUpdateGioiTinh[currentIndex][4],
+						khachHangUpdateGioiTinh[currentIndex][5],
+						khachHangUpdateGioiTinh[currentIndex][6]));
+				
+			});
 		}
 	}
-	@Test(expected = IllegalArgumentException.class)
+	@Test
 	public void updateInValidSDT() {
 		for (int i = 0; i < khachHangUpdateSDT.length; i++) {
-			khachHangDAO.update(khachHangDAO.getKhachHang(khachHangUpdateSDT[i][0], khachHangUpdateSDT[i][1], khachHangUpdateSDT[i][2], khachHangUpdateSDT[i][3], khachHangUpdateSDT[i][4], khachHangUpdateSDT[i][5], khachHangUpdateSDT[i][6]));
+			final int currentIndex = i;
+			assertThrows(IllegalArgumentException.class, () -> {
+				khachHangDAO.insert(khachHangDAO.getKhachHang(khachHangUpdateSDT[currentIndex][0],
+						khachHangUpdateSDT[currentIndex][1],
+						khachHangUpdateSDT[currentIndex][2],
+						khachHangUpdateSDT[currentIndex][3],
+						khachHangUpdateSDT[currentIndex][4],
+						khachHangUpdateSDT[currentIndex][5],
+						khachHangUpdateSDT[currentIndex][6]));
+				
+			});
 		}
 	}
 	//deleteeeeeeeeeeeee
-	@Test(expected = NullPointerException.class)
+	@Test
 	public void deleteNull() {
 		for (int i = 0; i < deleteNull.length; i++) {
-			khachHangDAO.delete(deleteNull[i]);
+			final int currentIndex = i;
+			assertThrows(NullPointerException.class, () -> {
+				khachHangDAO.delete(deleteNull[currentIndex]);
+			});
 		}
 	}
 	@Test
 	public void deleteValid() {
-		assertEquals("Xóa khách hàng thành công", khachHangDAO.delete(deleteSuccess[0]));
+		assertEquals("Xóa khách hàng thành công", khachHangDAO.delete("KH003"));
 	
 	}
 
