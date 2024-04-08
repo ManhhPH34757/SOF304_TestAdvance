@@ -166,5 +166,6 @@
 	<classpathentry kind="lib" path="C:/Users/PC/Downloads/Dự án 1/iText7-Core-7.1.4/pdfa-7.1.4-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/PC/Downloads/Dự án 1/iText7-Core-7.1.4/svg-7.1.4-javadoc.jar"/>
 	<classpathentry kind="lib" path="C:/Users/PC/Downloads/JDBC/mssql-jdbc-7.2.2.jre8.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

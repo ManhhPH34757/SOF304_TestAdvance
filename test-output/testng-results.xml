@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-08T13:17:18 ICT" name="Default suite" finished-at="2024-04-08T13:17:19 ICT" duration-ms="848">
+    <groups>
+    </groups>
+    <test started-at="2024-04-08T13:17:18 ICT" name="Default test" finished-at="2024-04-08T13:17:19 ICT" duration-ms="848">
+      <class name="DotGiamGia.TestDotGiamGia">
+        <test-method signature="test_add_DieuKienLaAm()[pri:0, instance:DotGiamGia.TestDotGiamGia@4135c3b]" started-at="2024-04-08T13:17:18 ICT" name="test_add_DieuKienLaAm" finished-at="2024-04-08T13:17:19 ICT" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_add_DieuKienLaAm -->
+        <test-method signature="test_add_GiaGiamDKChuaKiTu()[pri:0, instance:DotGiamGia.TestDotGiamGia@4135c3b]" started-at="2024-04-08T13:17:19 ICT" name="test_add_GiaGiamDKChuaKiTu" finished-at="2024-04-08T13:17:19 ICT" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_add_GiaGiamDKChuaKiTu -->
+        <test-method signature="test_add_GiaGiamLaAm()[pri:0, instance:DotGiamGia.TestDotGiamGia@4135c3b]" started-at="2024-04-08T13:17:19 ICT" name="test_add_GiaGiamLaAm" finished-at="2024-04-08T13:17:19 ICT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_add_GiaGiamLaAm -->
+        <test-method signature="test_add_GiaGiamLonHonDieuKien()[pri:0, instance:DotGiamGia.TestDotGiamGia@4135c3b]" started-at="2024-04-08T13:17:19 ICT" name="test_add_GiaGiamLonHonDieuKien" finished-at="2024-04-08T13:17:19 ICT" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_add_GiaGiamLonHonDieuKien -->
+        <test-method signature="test_add_HanLonHonNam2100()[pri:0, instance:DotGiamGia.TestDotGiamGia@4135c3b]" started-at="2024-04-08T13:17:19 ICT" name="test_add_HanLonHonNam2100" finished-at="2024-04-08T13:17:19 ICT" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_add_HanLonHonNam2100 -->
+        <test-method signature="test_add_HanNhoHonNgayHTai()[pri:0, instance:DotGiamGia.TestDotGiamGia@4135c3b]" started-at="2024-04-08T13:17:19 ICT" name="test_add_HanNhoHonNgayHTai" finished-at="2024-04-08T13:17:19 ICT" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_add_HanNhoHonNgayHTai -->
+        <test-method signature="test_add_MaDGGTrung()[pri:0, instance:DotGiamGia.TestDotGiamGia@4135c3b]" started-at="2024-04-08T13:17:19 ICT" name="test_add_MaDGGTrung" finished-at="2024-04-08T13:17:19 ICT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_add_MaDGGTrung -->
+        <test-method signature="test_add_NgayChuaKiTu()[pri:0, instance:DotGiamGia.TestDotGiamGia@4135c3b]" started-at="2024-04-08T13:17:19 ICT" name="test_add_NgayChuaKiTu" finished-at="2024-04-08T13:17:19 ICT" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_add_NgayChuaKiTu -->
+        <test-method signature="test_add_nullBlank()[pri:0, instance:DotGiamGia.TestDotGiamGia@4135c3b]" started-at="2024-04-08T13:17:19 ICT" name="test_add_nullBlank" finished-at="2024-04-08T13:17:19 ICT" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_add_nullBlank -->
+        <test-method signature="test_delete_null()[pri:0, instance:DotGiamGia.TestDotGiamGia@4135c3b]" started-at="2024-04-08T13:17:19 ICT" name="test_delete_null" finished-at="2024-04-08T13:17:19 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_delete_null -->
+        <test-method signature="test_update_DieuKienLaAm()[pri:0, instance:DotGiamGia.TestDotGiamGia@4135c3b]" started-at="2024-04-08T13:17:19 ICT" name="test_update_DieuKienLaAm" finished-at="2024-04-08T13:17:19 ICT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_update_DieuKienLaAm -->
+        <test-method signature="test_update_GiaGiamDKChuaKiTu()[pri:0, instance:DotGiamGia.TestDotGiamGia@4135c3b]" started-at="2024-04-08T13:17:19 ICT" name="test_update_GiaGiamDKChuaKiTu" finished-at="2024-04-08T13:17:19 ICT" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_update_GiaGiamDKChuaKiTu -->
+        <test-method signature="test_update_GiaGiamLaAm()[pri:0, instance:DotGiamGia.TestDotGiamGia@4135c3b]" started-at="2024-04-08T13:17:19 ICT" name="test_update_GiaGiamLaAm" finished-at="2024-04-08T13:17:19 ICT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_update_GiaGiamLaAm -->
+        <test-method signature="test_update_GiaGiamLonHonDieuKien()[pri:0, instance:DotGiamGia.TestDotGiamGia@4135c3b]" started-at="2024-04-08T13:17:19 ICT" name="test_update_GiaGiamLonHonDieuKien" finished-at="2024-04-08T13:17:19 ICT" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_update_GiaGiamLonHonDieuKien -->
+        <test-method signature="test_update_HanLonHonNam2100()[pri:0, instance:DotGiamGia.TestDotGiamGia@4135c3b]" started-at="2024-04-08T13:17:19 ICT" name="test_update_HanLonHonNam2100" finished-at="2024-04-08T13:17:19 ICT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_update_HanLonHonNam2100 -->
+        <test-method signature="test_update_HanNhoHonNgayHTai()[pri:0, instance:DotGiamGia.TestDotGiamGia@4135c3b]" started-at="2024-04-08T13:17:19 ICT" name="test_update_HanNhoHonNgayHTai" finished-at="2024-04-08T13:17:19 ICT" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_update_HanNhoHonNgayHTai -->
+        <test-method signature="test_update_MaDGGTrung()[pri:0, instance:DotGiamGia.TestDotGiamGia@4135c3b]" started-at="2024-04-08T13:17:19 ICT" name="test_update_MaDGGTrung" finished-at="2024-04-08T13:17:19 ICT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_update_MaDGGTrung -->
+        <test-method signature="test_update_NgayChuaKiTu()[pri:0, instance:DotGiamGia.TestDotGiamGia@4135c3b]" started-at="2024-04-08T13:17:19 ICT" name="test_update_NgayChuaKiTu" finished-at="2024-04-08T13:17:19 ICT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_update_NgayChuaKiTu -->
+        <test-method signature="test_update_nullBlank()[pri:0, instance:DotGiamGia.TestDotGiamGia@4135c3b]" started-at="2024-04-08T13:17:19 ICT" name="test_update_nullBlank" finished-at="2024-04-08T13:17:19 ICT" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_update_nullBlank -->
+      </class> <!-- DotGiamGia.TestDotGiamGia -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

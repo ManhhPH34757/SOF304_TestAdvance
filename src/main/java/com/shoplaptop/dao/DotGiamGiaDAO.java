@@ -3,6 +3,7 @@ package com.shoplaptop.dao;
 import java.math.BigDecimal;
 import java.sql.Date;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;
@@ -90,11 +91,14 @@ public class DotGiamGiaDAO implements ShopLaptop365DAO<DotGiamGia, String>{
 	}
 
 	@Override
-	public String delete(String MaPhieuDoi) {
+	public String delete(String maDotGiam) {
 		try {
-			XJdbc.update(DeleteSQL, MaPhieuDoi);
+			if(maDotGiam == null || maDotGiam.trim().isEmpty()) {
+				throw new NullPointerException();
+			}
+			XJdbc.update(DeleteSQL, maDotGiam);
 			return "Delete Thành Công";
-		} catch (Exception e) {
+} catch ( SQLException e) {
 			return "Delete Thất Bại";
 		}
 	}
