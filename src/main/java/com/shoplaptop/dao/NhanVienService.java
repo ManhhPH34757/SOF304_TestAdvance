@@ -3,6 +3,7 @@ package com.shoplaptop.dao;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.sql.Statement;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -77,11 +78,13 @@ public class NhanVienService implements ShopLaptop365DAO<NhanVien, String>{
 
 	
 	public String delete(String id) {
-		
+		if (id == null || id.trim().isEmpty()) {
+			throw new NullPointerException();
+		}
 		try {
 			XJdbc.update(Delete_SQL, id);
 			return "Xóa thành công";
-		} catch (Exception e) {
+		} catch (SQLException e) {
 			return "Xóa k thành công";
 		}
 		

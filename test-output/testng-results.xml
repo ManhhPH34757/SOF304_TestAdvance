@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-08T13:43:30 ICT" name="Default suite" finished-at="2024-04-08T13:43:32 ICT" duration-ms="1580">
+    <groups>
+    </groups>
+    <test started-at="2024-04-08T13:43:30 ICT" name="Default test" finished-at="2024-04-08T13:43:32 ICT" duration-ms="1580">
+      <class name="NhanVienTest.TestNhanVienService">
+        <test-method signature="AddEmailnotmaches()[pri:0, instance:NhanVienTest.TestNhanVienService@a1f72f5]" started-at="2024-04-08T13:43:30 ICT" name="AddEmailnotmaches" finished-at="2024-04-08T13:43:30 ICT" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmailnotmaches -->
+        <test-method signature="AddMaNVExits()[pri:0, instance:NhanVienTest.TestNhanVienService@a1f72f5]" started-at="2024-04-08T13:43:30 ICT" name="AddMaNVExits" finished-at="2024-04-08T13:43:30 ICT" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddMaNVExits -->
+        <test-method signature="AddPhonenotmaches()[pri:0, instance:NhanVienTest.TestNhanVienService@a1f72f5]" started-at="2024-04-08T13:43:30 ICT" name="AddPhonenotmaches" finished-at="2024-04-08T13:43:30 ICT" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddPhonenotmaches -->
+        <test-method signature="AddSuccess()[pri:0, instance:NhanVienTest.TestNhanVienService@a1f72f5]" started-at="2024-04-08T13:43:30 ICT" name="AddSuccess" finished-at="2024-04-08T13:43:30 ICT" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddSuccess -->
+        <test-method signature="AddgioiTinhnotformat()[pri:0, instance:NhanVienTest.TestNhanVienService@a1f72f5]" started-at="2024-04-08T13:43:30 ICT" name="AddgioiTinhnotformat" finished-at="2024-04-08T13:43:31 ICT" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddgioiTinhnotformat -->
+        <test-method signature="AddngaySinhnotformat()[pri:0, instance:NhanVienTest.TestNhanVienService@a1f72f5]" started-at="2024-04-08T13:43:31 ICT" name="AddngaySinhnotformat" finished-at="2024-04-08T13:43:31 ICT" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddngaySinhnotformat -->
+        <test-method signature="Addnull()[pri:0, instance:NhanVienTest.TestNhanVienService@a1f72f5]" started-at="2024-04-08T13:43:31 ICT" name="Addnull" finished-at="2024-04-08T13:43:31 ICT" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addnull -->
+        <test-method signature="AddtenDangNhapExit()[pri:0, instance:NhanVienTest.TestNhanVienService@a1f72f5]" started-at="2024-04-08T13:43:31 ICT" name="AddtenDangNhapExit" finished-at="2024-04-08T13:43:31 ICT" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddtenDangNhapExit -->
+        <test-method signature="Addvaitronotformat()[pri:0, instance:NhanVienTest.TestNhanVienService@a1f72f5]" started-at="2024-04-08T13:43:31 ICT" name="Addvaitronotformat" finished-at="2024-04-08T13:43:31 ICT" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addvaitronotformat -->
+        <test-method signature="DeleteSuccess()[pri:0, instance:NhanVienTest.TestNhanVienService@a1f72f5]" started-at="2024-04-08T13:43:31 ICT" name="DeleteSuccess" finished-at="2024-04-08T13:43:31 ICT" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteSuccess -->
+        <test-method signature="Deletenull()[pri:0, instance:NhanVienTest.TestNhanVienService@a1f72f5]" started-at="2024-04-08T13:43:31 ICT" name="Deletenull" finished-at="2024-04-08T13:43:31 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Deletenull -->
+        <test-method signature="UpdateEmailnotmaches()[pri:0, instance:NhanVienTest.TestNhanVienService@a1f72f5]" started-at="2024-04-08T13:43:31 ICT" name="UpdateEmailnotmaches" finished-at="2024-04-08T13:43:31 ICT" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateEmailnotmaches -->
+        <test-method signature="UpdateMaNVExits()[pri:0, instance:NhanVienTest.TestNhanVienService@a1f72f5]" started-at="2024-04-08T13:43:31 ICT" name="UpdateMaNVExits" finished-at="2024-04-08T13:43:31 ICT" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateMaNVExits -->
+        <test-method signature="UpdatePhonenotmaches()[pri:0, instance:NhanVienTest.TestNhanVienService@a1f72f5]" started-at="2024-04-08T13:43:31 ICT" name="UpdatePhonenotmaches" finished-at="2024-04-08T13:43:31 ICT" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdatePhonenotmaches -->
+        <test-method signature="UpdateSuccess()[pri:0, instance:NhanVienTest.TestNhanVienService@a1f72f5]" started-at="2024-04-08T13:43:31 ICT" name="UpdateSuccess" finished-at="2024-04-08T13:43:31 ICT" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateSuccess -->
+        <test-method signature="UpdategioiTinhnotformat()[pri:0, instance:NhanVienTest.TestNhanVienService@a1f72f5]" started-at="2024-04-08T13:43:31 ICT" name="UpdategioiTinhnotformat" finished-at="2024-04-08T13:43:31 ICT" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdategioiTinhnotformat -->
+        <test-method signature="UpdatengaySinhnotformat()[pri:0, instance:NhanVienTest.TestNhanVienService@a1f72f5]" started-at="2024-04-08T13:43:31 ICT" name="UpdatengaySinhnotformat" finished-at="2024-04-08T13:43:31 ICT" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdatengaySinhnotformat -->
+        <test-method signature="Updatenull()[pri:0, instance:NhanVienTest.TestNhanVienService@a1f72f5]" started-at="2024-04-08T13:43:31 ICT" name="Updatenull" finished-at="2024-04-08T13:43:32 ICT" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Updatenull -->
+        <test-method signature="UpdatetenDangNhapExit()[pri:0, instance:NhanVienTest.TestNhanVienService@a1f72f5]" started-at="2024-04-08T13:43:32 ICT" name="UpdatetenDangNhapExit" finished-at="2024-04-08T13:43:32 ICT" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdatetenDangNhapExit -->
+        <test-method signature="Updatevaitronotformat()[pri:0, instance:NhanVienTest.TestNhanVienService@a1f72f5]" started-at="2024-04-08T13:43:32 ICT" name="Updatevaitronotformat" finished-at="2024-04-08T13:43:32 ICT" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Updatevaitronotformat -->
+      </class> <!-- NhanVienTest.TestNhanVienService -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

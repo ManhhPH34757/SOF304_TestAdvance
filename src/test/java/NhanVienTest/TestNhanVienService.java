@@ -1,12 +1,14 @@
 package NhanVienTest;
 
 import static org.junit.Assert.assertEquals;
+import static org.testng.Assert.assertThrows;
 
 import org.junit.Test;
 
 import com.shoplaptop.dao.NhanVienService;
 import com.shoplaptop.dao.TaiKhoanDAO;
 
+@org.testng.annotations.Test
 public class TestNhanVienService {
 
 	NhanVienService nhanVienService = new NhanVienService();
@@ -36,7 +38,7 @@ public class TestNhanVienService {
 			{ "NV11", "hoten01", "0336389543", "2004-08-28", "true", "khaildph34641@fpt.edu.vn", "khai.png", "Nam ĐỊnh",
 					"true", "giang", null }, };
 
-	String[][] nhanVienExit = new String[][] { { "NV001", "hoten01", "0336389543", "2004-08-28", "true",
+	String[][] nhanVienExit = new String[][] { { "NV013", "hoten01", "0336389543", "2004-08-28", "true",
 			"khaildph34641@fpt.edu.vn", "khai.png", "Nam ĐỊnh", "true", "giang", "giang123" },
 
 	};
@@ -56,45 +58,63 @@ public class TestNhanVienService {
 			"khaildph34641fpt.edu.vn", "khai.png", "Nam ĐỊnh", "true", "giang", "giang123" }, };
 	String[][] tenDangNhapExit = new String[][] { { "NV025", "hoten01", "0336389543", "28-08-2004", "true",
 			"khaildph34641fpt.edu.vn", "khai.png", "Nam ĐỊnh", "true", "giang", "giang123" }, };
-	String[][] addsucesss = new String[][] { { "NV021", "hoten01", "0336389543", "2004-08-28", "true",
+	String[][] addsucesss = new String[][] { { "NV030", "hoten01", "0336389543", "2004-08-28", "true",
 			"khaildph34641@fpt.edu.vn", "abc.png", "Nam ĐỊnh", "true", "khai", "khai123" }, };
-	String[][] updatesucesss = new String[][] { { "NV021", "hoten02", "0949432583", "2009-08-28", "true",
+	String[][] updatesucesss = new String[][] { { "NV030", "hoten02", "0949432583", "2009-08-28", "true",
 			"khaildph34641@fpt.edu.vn", "abc.png", "HN", "true", "khai", "123456789" },
 
 	};
-	String[] checknulldelete = new String[] { " ", null, "", "2009-08-28", "true", "khaildph34641@fpt.edu.vn", "abc.png",
-			"HN", "true", "khai", "123456789" };
-	String[] deletesuccess = new String[] { "NV020", "Lương Duy Khải", "0336389543", "2009-08-28", "true", "khaildph34641@fpt.edu.vn", "abc.png",
-			"HN", "true", "khai", "123456789" };
+	String[] checknulldelete = new String[] {  null };
+	String[] deletesuccess = new String[] { "NV005", "Lương Duy Khải", "0336389543", "2009-08-28", "true",
+			"khaildph34641@fpt.edu.vn", "abc.png", "HN", "true", "khai", "123456789" };
 	// Add
 
 	@Test(expected = NullPointerException.class)
 	public void Addnull() {
 		for (int i = 0; i < nhanVienNullStrings.length; i++) {
-			nhanVienService.insert(nhanVienService.getNhanVien(nhanVienNullStrings[i][0], nhanVienNullStrings[i][1],
-					nhanVienNullStrings[i][2], nhanVienNullStrings[i][3], nhanVienNullStrings[i][4],
-					nhanVienNullStrings[i][5], nhanVienNullStrings[i][6], nhanVienNullStrings[i][7],
-					nhanVienNullStrings[i][8], nhanVienNullStrings[i][9], nhanVienNullStrings[i][10]));
+			final int currentIndex = i;
+			assertThrows(NullPointerException.class, () -> {
+				nhanVienService.insert(nhanVienService.getNhanVien(nhanVienNullStrings[currentIndex][0],
+						nhanVienNullStrings[currentIndex][1], nhanVienNullStrings[currentIndex][2],
+						nhanVienNullStrings[currentIndex][3], nhanVienNullStrings[currentIndex][4],
+						nhanVienNullStrings[currentIndex][5], nhanVienNullStrings[currentIndex][6],
+						nhanVienNullStrings[currentIndex][7], nhanVienNullStrings[currentIndex][8],
+						nhanVienNullStrings[currentIndex][9], nhanVienNullStrings[currentIndex][10]));
+			});
+
 		}
 	}
 
 	@Test(expected = IllegalArgumentException.class)
 	public void AddMaNVExits() {
 		for (int i = 0; i < nhanVienExit.length; i++) {
-			nhanVienService.insert(nhanVienService.getNhanVien(nhanVienExit[i][0], nhanVienExit[i][1],
-					nhanVienExit[i][2], nhanVienExit[i][3], nhanVienExit[i][4], nhanVienExit[i][5], nhanVienExit[i][6],
-					nhanVienExit[i][7], nhanVienExit[i][8], nhanVienExit[i][9], nhanVienExit[i][10]));
+			final int currentIndex = i;
+			assertThrows(IllegalArgumentException.class, () -> {
+				nhanVienService.insert(nhanVienService.getNhanVien(nhanVienExit[currentIndex][0],
+						nhanVienExit[currentIndex][1], nhanVienExit[currentIndex][2], nhanVienExit[currentIndex][3],
+						nhanVienExit[currentIndex][4], nhanVienExit[currentIndex][5], nhanVienExit[currentIndex][6],
+						nhanVienExit[currentIndex][7], nhanVienExit[currentIndex][8], nhanVienExit[currentIndex][9],
+						nhanVienExit[currentIndex][10]
+
+				));
+			});
 
 		}
 	}
 
 	@Test(expected = IllegalArgumentException.class)
 	public void AddPhonenotmaches() {
+
 		for (int i = 0; i < phoneNotmaches.length; i++) {
-			nhanVienService.insert(
-					nhanVienService.getNhanVien(phoneNotmaches[i][0], phoneNotmaches[i][1], phoneNotmaches[i][2],
-							phoneNotmaches[i][3], phoneNotmaches[i][4], phoneNotmaches[i][5], phoneNotmaches[i][6],
-							phoneNotmaches[i][7], phoneNotmaches[i][8], phoneNotmaches[i][9], phoneNotmaches[i][10]));
+			final int currentIndex = i;
+			assertThrows(IllegalArgumentException.class, () -> {
+				nhanVienService.insert(nhanVienService.getNhanVien(phoneNotmaches[currentIndex][0],
+						phoneNotmaches[currentIndex][1], phoneNotmaches[currentIndex][2],
+						phoneNotmaches[currentIndex][3], phoneNotmaches[currentIndex][4],
+						phoneNotmaches[currentIndex][5], phoneNotmaches[currentIndex][6],
+						phoneNotmaches[currentIndex][7], phoneNotmaches[currentIndex][8],
+						phoneNotmaches[currentIndex][9], phoneNotmaches[currentIndex][10]));
+			});
 
 		}
 	}
@@ -102,10 +122,17 @@ public class TestNhanVienService {
 	@Test(expected = IllegalArgumentException.class)
 	public void AddEmailnotmaches() {
 		for (int i = 0; i < emailNotmaches.length; i++) {
-			nhanVienService.insert(
-					nhanVienService.getNhanVien(emailNotmaches[i][0], emailNotmaches[i][1], emailNotmaches[i][2],
-							emailNotmaches[i][3], emailNotmaches[i][4], emailNotmaches[i][5], emailNotmaches[i][6],
-							emailNotmaches[i][7], emailNotmaches[i][8], emailNotmaches[i][9], emailNotmaches[i][10]));
+			final int currentIndex = i;
+			assertThrows(IllegalArgumentException.class, () -> {
+				nhanVienService.insert(nhanVienService.getNhanVien(emailNotmaches[currentIndex][0],
+						emailNotmaches[currentIndex][1], emailNotmaches[currentIndex][2],
+						emailNotmaches[currentIndex][3], emailNotmaches[currentIndex][4],
+						emailNotmaches[currentIndex][5], emailNotmaches[currentIndex][6],
+						emailNotmaches[currentIndex][7], emailNotmaches[currentIndex][8],
+						emailNotmaches[currentIndex][9], emailNotmaches[currentIndex][10]
+
+				));
+			});
 
 		}
 	}
@@ -113,10 +140,17 @@ public class TestNhanVienService {
 	@Test(expected = IllegalArgumentException.class)
 	public void AddgioiTinhnotformat() {
 		for (int i = 0; i < gioiTinhnotformat.length; i++) {
-			nhanVienService.insert(nhanVienService.getNhanVien(gioiTinhnotformat[i][0], gioiTinhnotformat[i][1],
-					gioiTinhnotformat[i][2], gioiTinhnotformat[i][3], gioiTinhnotformat[i][4], gioiTinhnotformat[i][5],
-					gioiTinhnotformat[i][6], gioiTinhnotformat[i][7], gioiTinhnotformat[i][8], gioiTinhnotformat[i][9],
-					gioiTinhnotformat[i][10]));
+			final int currentIndex = i;
+			assertThrows(IllegalArgumentException.class, ()->{
+				nhanVienService.insert(nhanVienService.getNhanVien(gioiTinhnotformat[currentIndex][0],
+						gioiTinhnotformat[currentIndex][1], gioiTinhnotformat[currentIndex][2],
+						gioiTinhnotformat[currentIndex][3], gioiTinhnotformat[currentIndex][4],
+						gioiTinhnotformat[currentIndex][5], gioiTinhnotformat[currentIndex][6],
+						gioiTinhnotformat[currentIndex][7], gioiTinhnotformat[currentIndex][8],
+						gioiTinhnotformat[currentIndex][9], gioiTinhnotformat[currentIndex][10]
+
+				));
+			});
 
 		}
 	}
@@ -124,10 +158,17 @@ public class TestNhanVienService {
 	@Test(expected = IllegalArgumentException.class)
 	public void Addvaitronotformat() {
 		for (int i = 0; i < vaiTroTinhnotformat.length; i++) {
-			nhanVienService.insert(nhanVienService.getNhanVien(vaiTroTinhnotformat[i][0], vaiTroTinhnotformat[i][1],
-					vaiTroTinhnotformat[i][2], vaiTroTinhnotformat[i][3], vaiTroTinhnotformat[i][4],
-					vaiTroTinhnotformat[i][5], vaiTroTinhnotformat[i][6], vaiTroTinhnotformat[i][7],
-					vaiTroTinhnotformat[i][8], vaiTroTinhnotformat[i][9], vaiTroTinhnotformat[i][10]));
+			final int currentIndex = i;
+			assertThrows(IllegalArgumentException.class, ()->{
+				nhanVienService.insert(nhanVienService.getNhanVien(vaiTroTinhnotformat[currentIndex][0],
+						vaiTroTinhnotformat[currentIndex][1], vaiTroTinhnotformat[currentIndex][2],
+						vaiTroTinhnotformat[currentIndex][3], vaiTroTinhnotformat[currentIndex][4],
+						vaiTroTinhnotformat[currentIndex][5], vaiTroTinhnotformat[currentIndex][6],
+						vaiTroTinhnotformat[currentIndex][7], vaiTroTinhnotformat[currentIndex][8],
+						vaiTroTinhnotformat[currentIndex][9], vaiTroTinhnotformat[currentIndex][10]
+
+				));
+			});
 
 		}
 	}
@@ -135,10 +176,17 @@ public class TestNhanVienService {
 	@Test(expected = IllegalArgumentException.class)
 	public void AddngaySinhnotformat() {
 		for (int i = 0; i < ngaysinhnotformat.length; i++) {
-			nhanVienService.insert(nhanVienService.getNhanVien(ngaysinhnotformat[i][0], ngaysinhnotformat[i][1],
-					ngaysinhnotformat[i][2], ngaysinhnotformat[i][3], ngaysinhnotformat[i][4], ngaysinhnotformat[i][5],
-					ngaysinhnotformat[i][6], ngaysinhnotformat[i][7], ngaysinhnotformat[i][8], ngaysinhnotformat[i][9],
-					ngaysinhnotformat[i][10]));
+			final int currentIndex = i;
+			assertThrows(IllegalArgumentException.class, ()->{
+				nhanVienService.insert(nhanVienService.getNhanVien(ngaysinhnotformat[currentIndex][0],
+						ngaysinhnotformat[currentIndex][1], ngaysinhnotformat[currentIndex][2],
+						ngaysinhnotformat[currentIndex][3], ngaysinhnotformat[currentIndex][4],
+						ngaysinhnotformat[currentIndex][5], ngaysinhnotformat[currentIndex][6],
+						ngaysinhnotformat[currentIndex][7], ngaysinhnotformat[currentIndex][8],
+						ngaysinhnotformat[currentIndex][9], ngaysinhnotformat[currentIndex][10]
+
+				));
+			});
 
 		}
 	}
@@ -146,11 +194,18 @@ public class TestNhanVienService {
 	@Test(expected = IllegalArgumentException.class)
 	public void AddtenDangNhapExit() {
 		for (int i = 0; i < tenDangNhapExit.length; i++) {
-			nhanVienService.insert(nhanVienService.getNhanVien(tenDangNhapExit[i][0], tenDangNhapExit[i][1],
-					tenDangNhapExit[i][2], tenDangNhapExit[i][3], tenDangNhapExit[i][4], tenDangNhapExit[i][5],
-					tenDangNhapExit[i][6], tenDangNhapExit[i][7], tenDangNhapExit[i][8], tenDangNhapExit[i][9],
-					tenDangNhapExit[i][10]));
+			final int currentIndex = i;
+			assertThrows(IllegalArgumentException.class, ()->{
+				nhanVienService.insert(nhanVienService.getNhanVien(tenDangNhapExit[currentIndex][0],
+						tenDangNhapExit[currentIndex][1], tenDangNhapExit[currentIndex][2],
+						tenDangNhapExit[currentIndex][3], tenDangNhapExit[currentIndex][4],
+						tenDangNhapExit[currentIndex][5], tenDangNhapExit[currentIndex][6],
+						tenDangNhapExit[currentIndex][7], tenDangNhapExit[currentIndex][8],
+						tenDangNhapExit[currentIndex][9], tenDangNhapExit[currentIndex][10]
 
+				));
+			});
+			
 		}
 	}
 
@@ -166,19 +221,33 @@ public class TestNhanVienService {
 	@Test(expected = NullPointerException.class)
 	public void Updatenull() {
 		for (int i = 0; i < nhanVienNullStrings.length; i++) {
-			nhanVienService.update(nhanVienService.getNhanVien(nhanVienNullStrings[i][0], nhanVienNullStrings[i][1],
-					nhanVienNullStrings[i][2], nhanVienNullStrings[i][3], nhanVienNullStrings[i][4],
-					nhanVienNullStrings[i][5], nhanVienNullStrings[i][6], nhanVienNullStrings[i][7],
-					nhanVienNullStrings[i][8], nhanVienNullStrings[i][9], nhanVienNullStrings[i][10]));
+			final int currentIndex = i;
+			assertThrows(NullPointerException.class, ()->{
+				nhanVienService.update(nhanVienService.getNhanVien(nhanVienNullStrings[currentIndex][0],
+						nhanVienNullStrings[currentIndex][1], nhanVienNullStrings[currentIndex][2],
+						nhanVienNullStrings[currentIndex][3], nhanVienNullStrings[currentIndex][4],
+						nhanVienNullStrings[currentIndex][5], nhanVienNullStrings[currentIndex][6],
+						nhanVienNullStrings[currentIndex][7], nhanVienNullStrings[currentIndex][8],
+						nhanVienNullStrings[currentIndex][9], nhanVienNullStrings[currentIndex][10]
+
+				));
+			});
 		}
 	}
 
 	@Test(expected = IllegalArgumentException.class)
 	public void UpdateMaNVExits() {
 		for (int i = 0; i < nhanVienExit.length; i++) {
-			nhanVienService.update(nhanVienService.getNhanVien(nhanVienExit[i][0], nhanVienExit[i][1],
-					nhanVienExit[i][2], nhanVienExit[i][3], nhanVienExit[i][4], nhanVienExit[i][5], nhanVienExit[i][6],
-					nhanVienExit[i][7], nhanVienExit[i][8], nhanVienExit[i][9], nhanVienExit[i][10]));
+			final int currentIndex = i;
+			assertThrows(IllegalArgumentException.class, () -> {
+				nhanVienService.update(nhanVienService.getNhanVien(nhanVienExit[currentIndex][0],
+						nhanVienExit[currentIndex][1], nhanVienExit[currentIndex][2], nhanVienExit[currentIndex][3],
+						nhanVienExit[currentIndex][4], nhanVienExit[currentIndex][5], nhanVienExit[currentIndex][6],
+						nhanVienExit[currentIndex][7], nhanVienExit[currentIndex][8], nhanVienExit[currentIndex][9],
+						nhanVienExit[currentIndex][10]
+
+				));
+			});
 
 		}
 	}
@@ -186,10 +255,16 @@ public class TestNhanVienService {
 	@Test(expected = IllegalArgumentException.class)
 	public void UpdatePhonenotmaches() {
 		for (int i = 0; i < phoneNotmaches.length; i++) {
-			nhanVienService.update(
-					nhanVienService.getNhanVien(phoneNotmaches[i][0], phoneNotmaches[i][1], phoneNotmaches[i][2],
-							phoneNotmaches[i][3], phoneNotmaches[i][4], phoneNotmaches[i][5], phoneNotmaches[i][6],
-							phoneNotmaches[i][7], phoneNotmaches[i][8], phoneNotmaches[i][9], phoneNotmaches[i][10]));
+			final int currentIndex = i;
+			assertThrows(IllegalArgumentException.class, () -> {
+				nhanVienService.update(nhanVienService.getNhanVien(phoneNotmaches[currentIndex][0],
+						phoneNotmaches[currentIndex][1], phoneNotmaches[currentIndex][2],
+						phoneNotmaches[currentIndex][3], phoneNotmaches[currentIndex][4],
+						phoneNotmaches[currentIndex][5], phoneNotmaches[currentIndex][6],
+						phoneNotmaches[currentIndex][7], phoneNotmaches[currentIndex][8],
+						phoneNotmaches[currentIndex][9], phoneNotmaches[currentIndex][10]));
+			});
+
 
 		}
 	}
@@ -197,10 +272,18 @@ public class TestNhanVienService {
 	@Test(expected = IllegalArgumentException.class)
 	public void UpdateEmailnotmaches() {
 		for (int i = 0; i < emailNotmaches.length; i++) {
-			nhanVienService.update(
-					nhanVienService.getNhanVien(emailNotmaches[i][0], emailNotmaches[i][1], emailNotmaches[i][2],
-							emailNotmaches[i][3], emailNotmaches[i][4], emailNotmaches[i][5], emailNotmaches[i][6],
-							emailNotmaches[i][7], emailNotmaches[i][8], emailNotmaches[i][9], emailNotmaches[i][10]));
+			final int currentIndex = i;
+			assertThrows(IllegalArgumentException.class, () -> {
+				nhanVienService.update(nhanVienService.getNhanVien(emailNotmaches[currentIndex][0],
+						emailNotmaches[currentIndex][1], emailNotmaches[currentIndex][2],
+						emailNotmaches[currentIndex][3], emailNotmaches[currentIndex][4],
+						emailNotmaches[currentIndex][5], emailNotmaches[currentIndex][6],
+						emailNotmaches[currentIndex][7], emailNotmaches[currentIndex][8],
+						emailNotmaches[currentIndex][9], emailNotmaches[currentIndex][10]
+
+				));
+			});
+
 
 		}
 	}
@@ -208,10 +291,17 @@ public class TestNhanVienService {
 	@Test(expected = IllegalArgumentException.class)
 	public void UpdategioiTinhnotformat() {
 		for (int i = 0; i < gioiTinhnotformat.length; i++) {
-			nhanVienService.update(nhanVienService.getNhanVien(gioiTinhnotformat[i][0], gioiTinhnotformat[i][1],
-					gioiTinhnotformat[i][2], gioiTinhnotformat[i][3], gioiTinhnotformat[i][4], gioiTinhnotformat[i][5],
-					gioiTinhnotformat[i][6], gioiTinhnotformat[i][7], gioiTinhnotformat[i][8], gioiTinhnotformat[i][9],
-					gioiTinhnotformat[i][10]));
+			final int currentIndex = i;
+			assertThrows(IllegalArgumentException.class, ()->{
+				nhanVienService.update(nhanVienService.getNhanVien(gioiTinhnotformat[currentIndex][0],
+						gioiTinhnotformat[currentIndex][1], gioiTinhnotformat[currentIndex][2],
+						gioiTinhnotformat[currentIndex][3], gioiTinhnotformat[currentIndex][4],
+						gioiTinhnotformat[currentIndex][5], gioiTinhnotformat[currentIndex][6],
+						gioiTinhnotformat[currentIndex][7], gioiTinhnotformat[currentIndex][8],
+						gioiTinhnotformat[currentIndex][9], gioiTinhnotformat[currentIndex][10]
+
+				));
+			});
 
 		}
 	}
@@ -219,21 +309,35 @@ public class TestNhanVienService {
 	@Test(expected = IllegalArgumentException.class)
 	public void Updatevaitronotformat() {
 		for (int i = 0; i < vaiTroTinhnotformat.length; i++) {
-			nhanVienService.update(nhanVienService.getNhanVien(vaiTroTinhnotformat[i][0], vaiTroTinhnotformat[i][1],
-					vaiTroTinhnotformat[i][2], vaiTroTinhnotformat[i][3], vaiTroTinhnotformat[i][4],
-					vaiTroTinhnotformat[i][5], vaiTroTinhnotformat[i][6], vaiTroTinhnotformat[i][7],
-					vaiTroTinhnotformat[i][8], vaiTroTinhnotformat[i][9], vaiTroTinhnotformat[i][10]));
+			final int currentIndex = i;
+			assertThrows(IllegalArgumentException.class, ()->{
+				nhanVienService.update(nhanVienService.getNhanVien(vaiTroTinhnotformat[currentIndex][0],
+						vaiTroTinhnotformat[currentIndex][1], vaiTroTinhnotformat[currentIndex][2],
+						vaiTroTinhnotformat[currentIndex][3], vaiTroTinhnotformat[currentIndex][4],
+						vaiTroTinhnotformat[currentIndex][5], vaiTroTinhnotformat[currentIndex][6],
+						vaiTroTinhnotformat[currentIndex][7], vaiTroTinhnotformat[currentIndex][8],
+						vaiTroTinhnotformat[currentIndex][9], vaiTroTinhnotformat[currentIndex][10]
 
+				));
+			});
 		}
 	}
 
 	@Test(expected = IllegalArgumentException.class)
 	public void UpdatengaySinhnotformat() {
 		for (int i = 0; i < ngaysinhnotformat.length; i++) {
-			nhanVienService.update(nhanVienService.getNhanVien(ngaysinhnotformat[i][0], ngaysinhnotformat[i][1],
-					ngaysinhnotformat[i][2], ngaysinhnotformat[i][3], ngaysinhnotformat[i][4], ngaysinhnotformat[i][5],
-					ngaysinhnotformat[i][6], ngaysinhnotformat[i][7], ngaysinhnotformat[i][8], ngaysinhnotformat[i][9],
-					ngaysinhnotformat[i][10]));
+			final int currentIndex = i;
+			assertThrows(IllegalArgumentException.class, ()->{
+				nhanVienService.update(nhanVienService.getNhanVien(ngaysinhnotformat[currentIndex][0],
+						ngaysinhnotformat[currentIndex][1], ngaysinhnotformat[currentIndex][2],
+						ngaysinhnotformat[currentIndex][3], ngaysinhnotformat[currentIndex][4],
+						ngaysinhnotformat[currentIndex][5], ngaysinhnotformat[currentIndex][6],
+						ngaysinhnotformat[currentIndex][7], ngaysinhnotformat[currentIndex][8],
+						ngaysinhnotformat[currentIndex][9], ngaysinhnotformat[currentIndex][10]
+
+				));
+			});
+
 
 		}
 	}
@@ -241,10 +345,17 @@ public class TestNhanVienService {
 	@Test(expected = IllegalArgumentException.class)
 	public void UpdatetenDangNhapExit() {
 		for (int i = 0; i < tenDangNhapExit.length; i++) {
-			nhanVienService.update(nhanVienService.getNhanVien(tenDangNhapExit[i][0], tenDangNhapExit[i][1],
-					tenDangNhapExit[i][2], tenDangNhapExit[i][3], tenDangNhapExit[i][4], tenDangNhapExit[i][5],
-					tenDangNhapExit[i][6], tenDangNhapExit[i][7], tenDangNhapExit[i][8], tenDangNhapExit[i][9],
-					tenDangNhapExit[i][10]));
+			final int currentIndex = i;
+			assertThrows(IllegalArgumentException.class, ()->{
+				nhanVienService.update(nhanVienService.getNhanVien(tenDangNhapExit[currentIndex][0],
+						tenDangNhapExit[currentIndex][1], tenDangNhapExit[currentIndex][2],
+						tenDangNhapExit[currentIndex][3], tenDangNhapExit[currentIndex][4],
+						tenDangNhapExit[currentIndex][5], tenDangNhapExit[currentIndex][6],
+						tenDangNhapExit[currentIndex][7], tenDangNhapExit[currentIndex][8],
+						tenDangNhapExit[currentIndex][9], tenDangNhapExit[currentIndex][10]
+
+				));
+			});
 
 		}
 	}
@@ -263,14 +374,17 @@ public class TestNhanVienService {
 	@Test(expected = NullPointerException.class)
 	public void Deletenull() {
 		for (int i = 0; i < checknulldelete.length; i++) {
-			nhanVienService.delete(checknulldelete[i]);
+			final int currentIndex = i;
+			assertThrows(NullPointerException.class, ()->{
+				nhanVienService.delete(checknulldelete[currentIndex]);
+			});
+			
 		}
 	}
 
 	@Test
 	public void DeleteSuccess() {
-		assertEquals("Xóa thành công",
-				nhanVienService.delete(deletesuccess[0]));
+		assertEquals("Xóa thành công", nhanVienService.delete(deletesuccess[0]));
 	}
 
 }
